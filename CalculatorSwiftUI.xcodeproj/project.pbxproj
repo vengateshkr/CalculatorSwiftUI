@@ -13,6 +13,7 @@
 		25CDBAAD240B58DA008D67AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CDBAAC240B58DA008D67AA /* Assets.xcassets */; };
 		25CDBAB0240B58DA008D67AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CDBAAF240B58DA008D67AA /* Preview Assets.xcassets */; };
 		25CDBAB3240B58DA008D67AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CDBAB1240B58DA008D67AA /* LaunchScreen.storyboard */; };
+		25CDBABB240C4287008D67AA /* CalcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDBABA240C4287008D67AA /* CalcBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		25CDBAAF240B58DA008D67AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25CDBAB2240B58DA008D67AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25CDBAB4240B58DA008D67AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CDBABA240C4287008D67AA /* CalcBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				25CDBAA6240B58D9008D67AA /* AppDelegate.swift */,
 				25CDBAA8240B58D9008D67AA /* SceneDelegate.swift */,
 				25CDBAAA240B58D9008D67AA /* ContentView.swift */,
+				25CDBABA240C4287008D67AA /* CalcBrain.swift */,
 				25CDBAAC240B58DA008D67AA /* Assets.xcassets */,
 				25CDBAB1240B58DA008D67AA /* LaunchScreen.storyboard */,
 				25CDBAB4240B58DA008D67AA /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25CDBAA7240B58D9008D67AA /* AppDelegate.swift in Sources */,
+				25CDBABB240C4287008D67AA /* CalcBrain.swift in Sources */,
 				25CDBAA9240B58D9008D67AA /* SceneDelegate.swift in Sources */,
 				25CDBAAB240B58D9008D67AA /* ContentView.swift in Sources */,
 			);
