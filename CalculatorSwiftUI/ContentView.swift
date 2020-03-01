@@ -69,11 +69,13 @@ struct ContentView: View {
         return HStack(alignment: .center, spacing: spacing) {
             ForEach(buttons) { button in
                 Text(button.title)
-                    .frame(width: (screenWidth - spacing) / 4, height: (screenWidth - spacing) / 4)
+                    .frame(width:
+                        button.title != "0" ? (screenWidth - spacing * 5) / 4 : (screenWidth - spacing) / 4 * 2 + spacing
+                        , height: (screenWidth - spacing) / 4)
                     .font(.system(size: 28))
                     .foregroundColor(.white)
                     .background(button.color)
-                    .clipShape(Circle())
+                    .cornerRadius(100)
                     .onTapGesture {
                         self.touch(button.title)
                 }
